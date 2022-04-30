@@ -1,0 +1,23 @@
+{
+  "name": "githubber",
+  "version": "1.0.0",
+  "description": "An application to fetch github user's profile",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "engine": {
+    "node": "10.2.1",
+    "npm": "6.4.0"
+  },
+  "author": "Suyash Purwar",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "socket.io": "^2.1.1"
+  }
+}
